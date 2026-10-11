@@ -1,0 +1,7 @@
+customer_id,email,country,age,segment
+C001,ali@example.com,AE,34,retail
+C002,,IN,29,retail
+C003,neha@example,IN,41,premium
+C001,dup@example.com,AE,52,retail
+C005,sam@example.com,UK,-3,vip
+C006,lee@example.com,AE,130,premium

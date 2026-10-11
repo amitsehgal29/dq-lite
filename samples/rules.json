@@ -1,0 +1,9 @@
+[
+  {"column": "customer_id", "check": "not_null"},
+  {"column": "customer_id", "check": "unique"},
+  {"column": "email", "check": "not_null", "severity": "warn"},
+  {"column": "email", "check": "regex", "pattern": "[^@\\s]+@[^@\\s]+\\.[A-Za-z]{2,}"},
+  {"column": "country", "check": "in_set", "values": ["AE", "IN", "UK"]},
+  {"column": "age", "check": "range", "min": 0, "max": 120},
+  {"column": "segment", "check": "in_set", "values": ["retail", "premium"], "severity": "warn"}
+]
